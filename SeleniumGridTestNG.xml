@@ -4,11 +4,13 @@
 
     <test name="SeleniumGridTestNG">
 
+
         <classes>
             <class name="SeleniumGridChrome"></class>
             <class name="SeleniumGridFirefox"></class>
             <class name="SeleniumGridEdge"></class>
         </classes>
+
 
     </test>
 
