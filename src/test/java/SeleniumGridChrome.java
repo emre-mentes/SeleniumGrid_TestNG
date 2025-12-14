@@ -10,7 +10,7 @@ public class SeleniumGridChrome {
     WebDriver driver;
 
     @Test
-    public void test01() throws MalformedURLException {
+    public void SeleniumGridChrome() throws MalformedURLException {
 
 
         driver =new RemoteWebDriver(new URL("http://192.168.2.103:4444"),new ChromeOptions());
