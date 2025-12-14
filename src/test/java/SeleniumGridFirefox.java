@@ -10,7 +10,7 @@ public class SeleniumGridFirefox {
     WebDriver driver;
 
     @Test
-    public void test02() throws MalformedURLException {
+    public void SeleniumGridFirefox() throws MalformedURLException {
 
         driver =new RemoteWebDriver(new URL("http://192.168.2.103:4444"),new FirefoxOptions());
         driver.manage().window().maximize();

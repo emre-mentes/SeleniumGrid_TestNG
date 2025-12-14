@@ -10,7 +10,7 @@ public class SeleniumGridEdge {
     WebDriver driver;
 
     @Test
-    public void test03() throws MalformedURLException {
+    public void SeleniumGridEdge() throws MalformedURLException {
 
         driver =new RemoteWebDriver(new URL("http://192.168.2.103:4444"),new EdgeOptions());
         driver.manage().window().maximize();
